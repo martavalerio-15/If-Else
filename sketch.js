@@ -10,17 +10,17 @@ function draw () {
     if (mouseX < width / 3) {  // quadrado 1/3 cima
       background (226, 111, 143);       // rosa
     } else if (mouseX < width / 3 * 2) { // quadrado 2/3 cima
-      background (255, 150, 0);     // laranja
+      background (198, 7, 7);     // vermelho
     } else {   // quadrado 3/3 (se o rato não estiver nos outros dois quadrados de cima)
-      background (255, 230, 0);     // amarelo
+      background (275, 174, 0);     // amarelo
     }
   } else { // rato na linha de baixo
     if (mouseX < width / 3) { // quadrado 1/3 baixo
-      background (0, 180, 0);       // verde
+      background (202, 195, 7);       // verde
     } else if (mouseX < width / 3 * 2) { // quadrado 2/3 baixo
-      background (0, 120, 255);     // azul
+      background (0, 160, 255);     // azul
     } else { // quadrado 3/3 baixo (se o rato não estiver nos outros dois quadrados de baixo)
-      background (160, 0, 200);     // roxo
+      background (190, 144, 250);     // roxo
     }
   }
 
