@@ -8,11 +8,11 @@ function draw () {
   // linha de cima
   if (mouseY < height / 2) { // linha de cima 1/3 de cima
     if (mouseX < width / 3) { 
-      background(226, 111, 143);       // rosa
+      background (226, 111, 143);       // rosa
     } else if (mouseX < width / 3 * 2) {
-      background(255, 150, 0);     // laranja
+      background (255, 150, 0);     // laranja
     } else {
-      background(255, 230, 0);     // amarelo
+      background (255, 230, 0);     // amarelo
     }
   } else {
     // linha de baixo
@@ -25,11 +25,5 @@ function draw () {
     }
   }
 
-  // ---- círculo no meio: muda quando carregas no rato ----
-  if (mouseIsPressed) {
-    fill(0);                       // a carregar: preto
-  } else {
-    fill(255);                     // sem carregar: branco
+
   }
-  circle(width / 2, height / 2, 150);
-}
