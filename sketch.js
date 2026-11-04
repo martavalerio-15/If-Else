@@ -23,7 +23,7 @@ function draw () {
       background (160, 0, 200);     // roxo
     }
   }
-}
+
 fill (255);
 if (mouseIsPressed) {
   circle (mouseX, mouseY, 250); // ao carregar o circulo fica grande
