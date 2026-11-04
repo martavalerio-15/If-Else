@@ -31,3 +31,5 @@ if (mouseIsPressed) {
   circle (mouseX, mouseY, 50); // circulo pequeno
 }
 
+}
+
